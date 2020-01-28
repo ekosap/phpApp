@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PENDY LOGIN/SIGNUP</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+      <link rel="stylesheet" href="./assets/css/style.css">
+  
+</head>
+<body><div align="center">
+
+  <h1   class="title"><br/><span  class="t1">P</span><span class="t2">ENDY</span></div></h1>
+
+  <img  class="pendy" src="pendy.jpg">
+ 
+
+  <div class="login-wrap">
+
+
+  <div class="login-html">
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+    <div class="login-form">
+      <form class="sign-in-htm" action="./api/user/login.php" method="GET">
+        <div class="group">
+          <label for="user" class="label">Username</label>
+          <input id="username" name="username" type="text" class="input">
+        </div>
+        <div class="group">
+          <label for="pass" class="label">Password</label>
+          <input id="password" name="password" type="password" class="input" data-type="password">
+        </div>
+        <div class="group">
+          <input id="check" type="checkbox" class="check" checked>
+          <label for="check"><span class="icon"></span> Keep me Signed in</label>
+        </div>
+        <div class="group">
+          <input type="submit" class="button" value="Sign In">
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <a href="#forgot">Forgot Password?</a>
+        </div>
+      </form>
+      <form class="sign-up-htm" action="./api/user/signup.php" method="POST">
+        <div class="group">
+          <label for="user" class="label1">First Name</label>
+          <input id="username" name="username" type="text" class="input1">
+          <label for="user" class="label1">Last Name</label>
+          <input id="username" name="username" type="text" class="input1">
+        </div>
+        <div class="group">
+          <label for="user" class="label1">DATE OF BIRTH</label>
+          <input id="dob" name="dob" type="DATE" class="input1">
+        
+          <label for="user" class="label1">E-Mail</label>
+          <input id="E-Mail" name="email" type="email" class="input1">
+        </div>
+        <div class="group">
+          <label for="pass" class="label1">Country</label>
+          <input id="Contry" name="Contry" type="Country" class="input1">
+         <label for="pass" class="label1">PhoneNumber</label>
+          <input id="Phone" name="number" type="number" class="input1">
+        </div>
+        <div class="group">
+          <label for="pass" class="label1">Password</label>
+          <input id="pass" name="password" type="password" class="input1" data-type="password">
+          <label for="pass" class="label1">Confirm</label>
+          <input id="pass" name="password" type="password" class="input1" data-type="password">
+        </div>
+        <div class="group">
+          <input type="submit" class="button" value="Sign Up">
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <label for="tab-1">Already Member?</a>
+
+            PENDY 2020
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+  <wbr><wbr>
+  <footer ><div align="center">
+          <h1>PENDY.inc 2020</h1>
+          <p>A Platform to connect to your friends and Business fast.</p>
+          <marquee>PENDY</marquee>
+        </div>
+        </footer>
+  
+</body>
+</html>
